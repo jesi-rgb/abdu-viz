@@ -7,9 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* color the whole axis */
-domain, range, path, tick, line{
-  stroke: white;
+/* colors the bitg line */
+path{ 
+  stroke:white;
+}
+
+/* colors the ticks */
+line{
+  stroke:white;
 }
 
 rect {
